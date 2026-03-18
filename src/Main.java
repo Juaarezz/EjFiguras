@@ -7,16 +7,16 @@ public class Main {
         System.out.println(c.calcularPerimetro());
         System.out.println(c.calcularArea());
         c.dibujar();
-        c.mostrarCirculo();
+        c.mostrar();
 
         System.out.println(r.calcularPerimetro());
         System.out.println(r.calcularArea());
         r.dibujar();
-        r.mostrarCuadrado();
+        r.mostrar();
 
         System.out.println(t.calcularPerimetro());
         System.out.println(t.calcularArea());
         t.dibujar();
-        t.mostrarTriangulo();
+        t.mostrar();
     }
 }
