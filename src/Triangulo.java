@@ -1,4 +1,4 @@
-public class Triangulo extends Figura {
+public class Triangulo extends Figura implements Dibujable {
     private int lado1;
     private int lado2;
     private int lado3;
@@ -46,6 +46,7 @@ public class Triangulo extends Figura {
         return perimetro;
     }
 
+    @Override
     public void dibujar() {
         System.out.println("Dibujando... " + nombre);
     }

@@ -1,4 +1,4 @@
-public class Circulo extends Figura {
+public class Circulo extends Figura implements Dibujable {
     public int radio;
 
     public Circulo(String nombre, int radio) {
@@ -18,6 +18,7 @@ public class Circulo extends Figura {
         return perimetro;
     }
 
+    @Override
     public void dibujar() {
         System.out.println("Dibujando... " + nombre);
     }

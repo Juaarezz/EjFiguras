@@ -1,4 +1,4 @@
-public class Rectangulo extends Figura {
+public class Rectangulo extends Figura implements Dibujable {
     public int lado1;
     public int lado2;
 
@@ -18,6 +18,7 @@ public class Rectangulo extends Figura {
         return 2 * (lado1 + lado2);
     }
 
+    @Override
     public void dibujar() {
         System.out.println("Dibujando... " + nombre);
     }
